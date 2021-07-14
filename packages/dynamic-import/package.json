@@ -1,0 +1,22 @@
+{
+  "name": "@mfellner/dynamic-import",
+  "private": true,
+  "version": "1.0.0",
+  "repository": "git@github.com:mfellner/react-micro-frontends.git",
+  "author": "Maximilian Fellner <max.fellner@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6"
+  }
+}
